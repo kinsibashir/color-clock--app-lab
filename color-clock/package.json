@@ -8,11 +8,13 @@
     "start": "serve",
     "build": "esbuild index.js --bundle --outfile=dist/out.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
-    "date-fns": "2.30.0",
-    "serve": "^14.2.0",
-    "esbuild": "^0.24.0"
+    "date-fns": "^2.30.0",
+    "esbuild": "^0.27.3",
+    "serve": "^14.2.5"
   }
 }
